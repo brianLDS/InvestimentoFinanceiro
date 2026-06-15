@@ -1,43 +1,92 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Poupança</title>
+    <title>Poupança | Investimento Financeiro</title>
+    <meta name="description" content="Entenda como funciona a poupança no Brasil, seus benefícios, limitações e quando ela pode ser uma opção adequada.">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <h2>Poupança</h2>
-    <h3>O que é?</h3>
-    <p>A poupança é uma conta destinada a guardar dinheiro e gerar rendimentos. É considerada renda fixa e conta com
-        garantia do FGC até certo limite.</p>
+    <div class="container">
+        <header class="site-header">
+            <div class="brand">
+                <h1>Investimento Financeiro</h1>
+                <p>Saiba quando a poupança é uma opção útil e quais são suas limitações.</p>
+            </div>
+            <div class="header-actions">
+                <span class="badge">Invista com conhecimento</span>
+                <button class="theme-toggle" type="button" aria-label="Alternar tema">Tema escuro</button>
+            </div>
+            <nav class="main-nav" aria-label="Navegação principal">
+                <a href="index.html">Início</a>
+                <a href="poupança.html">Poupança</a>
+                <a href="TesouroDireto.html">Tesouro Direto</a>
+                <a href="acoes.html">Ações</a>
+                <a href="criptoativos.html">Criptoativos</a>
+                <a href="CDB.html">CDB</a>
+                <a href="LCI.html">LCI</a>
+                <a href="LCA.html">LCA</a>
+            </nav>
+        </header>
 
-    <h3>Como funciona?</h3>
-    <p>O rendimento da poupança depende da Taxa Selic: quando a Selic > 8,5% ao ano, rende 0,5% ao mês + TR; quando a
-        Selic ≤ 8,5%, rende 70% da Selic + TR. Possui liquidez diária, mas existe a regra da data de aniversário (30
-        dias) que pode afetar o rendimento se houver saque antecipado.</p>
+        <main class="content-page">
+            <div class="page-intro">
+                <span class="label">Reserva de emergência</span>
+                <h2>Poupança</h2>
+                <p>Conheça as principais características da poupança e quando ela é a melhor opção para guardar dinheiro.</p>
+            </div>
 
-    <h3>Pontos positivos</h3>
-    <ul>
-        <li>Fácil de acessar e simples de usar.</li>
-        <li>Segurança com proteção do FGC.</li>
-        <li>Isenção de Imposto de Renda para pessoa física.</li>
-        <li>Liquidez diária.</li>
-    </ul>
+            <section class="media-section">
+                <h3>Mídia</h3>
+                <div class="media-grid">
+                    <div class="media-placeholder">
+                        <strong>Imagem</strong>
+                        <p>Use a imagem em <code>assets/poupanca.png</code>.</p>
+                    </div>
+                    <div class="media-placeholder">
+                        <strong>Vídeo</strong>
+                        <p>Insira aqui o link do YouTube para tornar este conteúdo multimídia.</p>
+                    </div>
+                </div>
+                <p class="video-notice">Substitua este bloco pelo iframe do vídeo quando tiver o link.</p>
+            </section>
 
-    <h3>Pontos negativos</h3>
-    <ul>
-        <li>Rentabilidade baixa em comparação com outras opções de renda fixa.</li>
-        <li>Pode não preservar poder de compra em períodos de inflação alta.</li>
-        <li>Regra da data de aniversário que pode reduzir rendimentos em saques antecipados.</li>
-    </ul>
+            <h3>O que é?</h3>
+            <p>A poupança é uma forma tradicional de guardar dinheiro em uma conta de depósito que rende juros. É indicada para quem busca segurança e liquidez com simplicidade.</p>
 
-    <h3>Conclusão</h3>
-    <p>A poupança é simples e segura, indicada para iniciantes e para pequenas reservas, mas geralmente não é a melhor
-        opção para objetivos de médio e longo prazo devido à baixa rentabilidade.</p>
-    <button id="btnVoltar" onclick="window.location.href='index.html'">Voltar</button>
+            <h3>Como funciona?</h3>
+            <p>O rendimento depende da Taxa Selic. Quando a Selic está acima de 8,5% ao ano, a poupança rende 0,5% ao mês mais TR. Com Selic igual ou inferior a 8,5%, rende 70% da Selic mais TR. Há ainda a regra da data de aniversário, que pode influenciar o rendimento em caso de saques antes de 30 dias.</p>
+
+            <h3>Pontos positivos</h3>
+            <ul>
+                <li>Simples de usar e ampla oferta entre bancos.</li>
+                <li>Proteção do FGC até o limite estabelecido.</li>
+                <li>Isenção de Imposto de Renda para pessoa física.</li>
+                <li>Liquidez diária em caso de necessidade.</li>
+            </ul>
+
+            <h3>Pontos negativos</h3>
+            <ul>
+                <li>Retorno geralmente baixo em comparação com outras aplicações.</li>
+                <li>Rendimento pode não acompanhar a inflação em períodos de alta.</li>
+                <li>A regra da data de aniversário pode reduzir ganhos em saques antecipados.</li>
+            </ul>
+
+            <div class="highlight-box">
+                <strong>Observação:</strong> a poupança é boa para reservas de curto prazo ou para quem ainda não está familiarizado com outras opções de investimento.
+            </div>
+
+            <div class="back-button">
+                <a class="button button-secondary" href="index.html">Voltar para início</a>
+            </div>
+        </main>
+
+        <footer class="site-footer">
+            <p>© <span class="year">2024</span> Investimento Financeiro. Todos os direitos reservados.</p>
+        </footer>
+    </div>
     <script src="script.js"></script>
 </body>
-
 </html>

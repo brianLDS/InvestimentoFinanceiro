@@ -1,41 +1,91 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ações</title>
+    <title>Ações | Investimento Financeiro</title>
+    <meta name="description" content="Saiba como investir em ações, entender riscos, vantagens e melhores práticas para quem busca crescimento patrimonial no longo prazo.">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <h2>Ações</h2>
-    <h3>O que é?</h3>
-    <p>Uma ação representa uma fração do capital de uma empresa. Ao comprá-la, você se torna sócio minoritário,
-        participando dos lucros e riscos da companhia.</p>
+    <div class="container">
+        <header class="site-header">
+            <div class="brand">
+                <h1>Investimento Financeiro</h1>
+                <p>Explore como diferentes aplicações funcionam e escolha a opção ideal para seu perfil.</p>
+            </div>
+            <div class="header-actions">
+                <span class="badge">Invista com conhecimento</span>
+                <button class="theme-toggle" type="button" aria-label="Alternar tema">Tema escuro</button>
+            </div>
+            <nav class="main-nav" aria-label="Navegação principal">
+                <a href="index.html">Início</a>
+                <a href="poupança.html">Poupança</a>
+                <a href="TesouroDireto.html">Tesouro Direto</a>
+                <a href="acoes.html">Ações</a>
+                <a href="criptoativos.html">Criptoativos</a>
+                <a href="CDB.html">CDB</a>
+                <a href="LCI.html">LCI</a>
+                <a href="LCA.html">LCA</a>
+            </nav>
+        </header>
 
-    <h3>Como funciona?</h3>
-    <p>As ações são negociadas na Bolsa (B3). O preço varia pela oferta e procura. O investidor pode ganhar com
-        valorização ou com dividendos pagos pela empresa.</p>
+        <main class="content-page">
+            <div class="page-intro">
+                <span class="label">Renda variável</span>
+                <h2>Ações</h2>
+                <p>Entenda a dinâmica das ações e quando esse tipo de investimento pode fazer sentido dentro de uma carteira diversificada.</p>
+            </div>
 
-    <h3>Pontos positivos</h3>
-    <ul>
-        <li>Potencial de valorização ilimitado.</li>
-        <li>Possibilidade de receber dividendos regularmente.</li>
-        <li>Facilidade de transformar ações em dinheiro (liquidez de mercado).</li>
-    </ul>
+            <section class="media-section">
+                <h3>Mídia</h3>
+                <div class="media-grid">
+                    <div class="media-placeholder">
+                        <strong>Imagem</strong>
+                        <p>Use a imagem em <code>assets/acoes.png</code>.</p>
+                    </div>
+                    <div class="media-placeholder">
+                        <strong>Vídeo</strong>
+                        <p>Insira aqui o link do YouTube para tornar este conteúdo multimídia.</p>
+                    </div>
+                </div>
+                <p class="video-notice">Substitua este bloco pelo iframe do vídeo quando tiver o link.</p>
+            </section>
 
-    <h3>Pontos negativos</h3>
-    <ul>
-        <li>Alta volatilidade; preço pode cair muito em períodos de crise.</li>
-        <li>Risco de perda total se a empresa falir (sem seguro como FGC).</li>
-    </ul>
+            <h3>O que é?</h3>
+            <p>Uma ação representa uma fração do capital de uma empresa. Ao comprá-la, você se torna sócio minoritário, participando dos resultados, lucros e riscos do negócio.</p>
 
-    <h3>Conclusão</h3>
-    <p>Investir em ações é indicado para quem busca crescimento de patrimônio no longo prazo e aceita risco. É
-        recomendado ter reserva de emergência antes de começar.</p>
-    <button id="btnVoltar" onclick="window.location.href='index.html'">Voltar</button>
+            <h3>Como funciona?</h3>
+            <p>As ações são negociadas na Bolsa de Valores (B3). Seu preço varia de acordo com oferta e procura, notícias, resultados e expectativas do mercado. O investidor pode ganhar com a valorização do preço ou com distribuição de dividendos.</p>
+
+            <h3>Pontos positivos</h3>
+            <ul>
+                <li>Potencial de valorização elevado no longo prazo.</li>
+                <li>Recebimento de dividendos e participação nos lucros.</li>
+                <li>Boa liquidez em empresas de grande volume de negociação.</li>
+            </ul>
+
+            <h3>Pontos negativos</h3>
+            <ul>
+                <li>Alta volatilidade; preços podem cair forte em crises.</li>
+                <li>Risco de perda parcial ou total em empresas mal geridas.</li>
+                <li>Não há proteção do FGC; é preciso diversificar para reduzir risco.</li>
+            </ul>
+
+            <div class="highlight-box">
+                <strong>Dica:</strong> diversifique entre setores e mantenha uma reserva de emergência antes de aplicar em renda variável.
+            </div>
+
+            <div class="back-button">
+                <a class="button button-secondary" href="index.html">Voltar para início</a>
+            </div>
+        </main>
+
+        <footer class="site-footer">
+            <p>© <span class="year">2024</span> Investimento Financeiro. Todos os direitos reservados.</p>
+        </footer>
+    </div>
     <script src="script.js"></script>
 </body>
-
 </html>
