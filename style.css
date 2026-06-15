@@ -390,6 +390,27 @@ main {
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
 
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px;
+    margin-top: 24px;
+}
+
+.video-frame {
+    width: 100%;
+    min-height: 340px;
+    border: 0;
+    border-radius: 18px;
+}
+
+.video-notice {
+    margin-top: 12px;
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+    text-align: center;
+}
+
 .media-placeholder {
     margin-top: 18px;
     padding: 18px;
